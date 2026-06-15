@@ -1,0 +1,42 @@
+:root {
+    --background-color: green;
+    --dark-color: green;
+    --light-color: greenyellow;
+    --modal-color: white;
+}
+
+body {
+    margin:0;
+}
+#app {
+    height:100vh;
+    display:flex;
+    flex-flow:column;
+    overflow:hidden;
+    min-width:0;
+}
+
+.bg {
+    background-color: var(--background-color);
+}
+.dark {
+    background-color: var(--dark-color)
+}
+.light {
+    background-color: var(--light-color)
+}
+.modal-box {
+    position: fixed;
+    top:0;
+    left:0;
+    z-index: index 999;
+    width:100vw;
+    height:100vh;
+    background-color: rgba(0, 0, 0, 0.5);
+    display:flex;
+}
+.modal {
+    margin:auto;
+    background-color: var(--modal-color);
+    border-radius: 20px;
+}

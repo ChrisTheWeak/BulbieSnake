@@ -9,8 +9,8 @@ export enum Playstate {
 }
 const state = ref<Playstate>(Playstate.Playing);
 // For vue reasons, these are actually 1 indexed
-const rows = 15;
-const columns = 35;
+const rows = 12;
+const columns = 20;
 
 export enum Direction {
     Right,
